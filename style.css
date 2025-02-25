@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container input[type=number] {
+    text-align: center;
+    height: 18px;
+    width: 150px;
+    border: 3px solid black;
+}
+
+.boo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container input[type=date] {
+    height: 18px;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    border: 3px solid black;
+}
+
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #7DA7D9;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+
+.buttons {
+    background-color: yellow;
+    border: 3px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.buttons:active {
+    opacity: 0.6;
+}
+
+.container label {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
